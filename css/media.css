@@ -1,7 +1,27 @@
 @media screen and (min-width: 428px) {
   .container {
     max-width: 428px;
+    padding: 0 16px;
   }
+  .mob-tel-link {
+    font-size: 36px;
+  }
+  .mob-social-icons {
+    gap: 56px;
+  }
+  .modal {
+    width: 392px;
+  }
+  .form-btn {
+    height: 56px;
+  }
+  .coments {
+    height: 120px;
+  }
+  .team-container {
+    max-width: 296px;
+  }
+
   /*************************** Strategy ************************************/
 
   /*************************** Customers ************************************/
@@ -117,10 +137,14 @@
     margin: 0 auto 36px;
   }
 
+  .modal {
+    width: 408px;
+  }
+
   /*************************** Strategy ************************************/
 
   .advantage-list {
-    gap: 24px;
+    gap: 72px 24px;
   }
   .advantage-item {
     max-width: 356px;
@@ -156,7 +180,8 @@
     width: 168px;
     width: calc((100% - 48px) / 3);
   }
-  .footer-descr {
+  .footer-descr,
+  .footer-social {
     align-items: unset;
     justify-content: unset;
     margin: 0;
@@ -273,9 +298,11 @@
   }
 
   .subtitle-phone {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
   }
   /*************************** What are we doing ************************************/
 
@@ -293,7 +320,9 @@
   .team-list {
     gap: 24px;
   }
-
+  .team-container {
+    max-width: 1158px;
+  }
   .team-item {
     max-width: calc((100% - 72px) / 4);
   }
